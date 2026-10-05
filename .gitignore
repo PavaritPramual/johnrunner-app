@@ -1,0 +1,27 @@
+# Local tools and generated builds
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Signing and secrets
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*
+!.env.example
+
+# Personal GPS data and local exports
+/private-data/
+/exports/
+*.gpx
+*.tcx
+*.fit
+*.db
+*.db-shm
+*.db-wal
